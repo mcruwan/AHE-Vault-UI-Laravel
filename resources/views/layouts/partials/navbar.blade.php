@@ -97,8 +97,8 @@
                 <!--end::Logo wrapper-->
                 <!--begin::Logo image-->
                 <a href="{{ url('/') }}" class="d-flex d-lg-none">
-                    <img alt="Logo" src="assets/media/logos/demo23.svg" class="h-20px theme-light-show" />
-                    <img alt="Logo" src="assets/media/logos/demo23-dark.svg" class="h-20px theme-dark-show" />
+                    <img alt="Logo" src="assets/media/logos/ahe-vault-logo.png" class="h-20px theme-light-show" />
+                    <img alt="Logo" src="assets/media/logos/ahe-vault-logo.png" class="h-20px theme-dark-show" />
                 </a>
                 <!--end::Logo image-->
             </div>
