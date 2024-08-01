@@ -48,97 +48,102 @@
 
                     @include('layouts.partials.data-card')
 
-                    <div class="card mb-5 mb-xl-10" id="kt_profile_details_view">
-                        <!--begin::Card header-->
-                        <div class="card-header cursor-pointer">
-                            <!--begin::Card title-->
-                            <div class="card-title m-0">
-                                <h3 class="fw-bold m-0">Institutional Data</h3>
-                            </div>
-                            <!--end::Card title-->
-                        </div>
-                        <!--begin::Card header-->
-                        <!--begin::Card body-->
-                        <div class="card-body p-9">
-                            <!--begin::Row-->
-                            <div class="row mb-7">
-                                <label class="col-lg-4 fw-semibold text-muted">Faculty numbers
-                                    <span class="ms-1" data-bs-toggle="tooltip"
-                                        title="Total number of faculty members and international faculty members"><i
-                                            class="ki-outline ki-information fs-7"></i></span>
-                                </label>
-                                <div class="col-lg-8">
-                                    <div class="row">
-                                        <div class="col-lg-6 fv-row">
-                                            <input type="number" name="fname"
-                                                class="form-control form-control-lg form-control-solid mb-3 mb-lg-0"
-                                                placeholder="Faculty numbers" value="10" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row mb-7">
-                                <label class="col-lg-4 fw-semibold text-muted">Student numbers
-                                    <span class="ms-1" data-bs-toggle="tooltip"
-                                        title="Total number of students and international students"><i
-                                            class="ki-outline ki-information fs-7"></i></span>
-                                </label>
-                                <div class="col-lg-8 fv-row">
-                                    <div class="row">
-                                        <div class="col-lg-6 fv-row">
-                                            <input type="number" name="fname"
-                                                class="form-control form-control-lg form-control-solid mb-3 mb-lg-0"
-                                                placeholder="Student numbers" value="100" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row mb-7">
-                                <label class="col-lg-4 fw-semibold text-muted">Graduate outcomes
-                                    <span class="ms-1" data-bs-toggle="tooltip"
-                                        title="Data about total graduates, graduates employed within 6 months, graduates pursuing further studies within 6 months, and graduate outcome unknown/unresponsive."><i
-                                            class="ki-outline ki-information fs-7"></i></span>
-                                </label>
-                                <div class="col-lg-8 d-flex align-items-center">
-                                    <div class="col-lg-6 fv-row">
-                                        <input type="number" name="fname"
-                                            class="form-control form-control-lg form-control-solid mb-3 mb-lg-0"
-                                            placeholder="Total graduates" />
-                                        <input type="text" name="fname"
-                                            class="form-control form-control-lg form-control-solid mt-3 mb-lg-0"
-                                            placeholder="Graduates employed within 6 months" />
-                                        <input type="text" name="fname"
-                                            class="form-control form-control-lg form-control-solid mt-3 mb-lg-0"
-                                            placeholder="Graduates pursuing further studies within 6 months" />
-                                        <input type="text" name="fname"
-                                            class="form-control form-control-lg form-control-solid mt-3 mb-lg-0"
-                                            placeholder="Graduate outcome unknown/unresponsive" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row mb-7">
-                                <label class="col-lg-4 fw-semibold text-muted">proof of a survey measuring graduate outcomes
-                                    and/or official reports submitted to the government</label>
-                                <div class="col-lg-8 fv-row">
-                                    <div class="row">
-                                        <div class="col-lg-6 fv-row">
-                                            <input type="file" name="fname"
-                                                class="form-control form-control-lg mb-3 mb-lg-0" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--end::Card body-->
-                        <!--begin::Actions-->
-                        <div class="card-footer d-flex justify-content-end py-6 px-9">
-                            <button type="reset" class="btn btn-light btn-active-light-primary me-2">Discard</button>
-                            <button type="submit" class="btn btn-primary" id="kt_account_profile_details_submit">Save
-                                Changes</button>
-                        </div>
-                        <!--end::Actions-->
-                    </div>
+                    <form id="" class="form">
 
+                        <div class="card mb-5 mb-xl-10" id="kt_profile_details_view">
+                            <!--begin::Card header-->
+                            <div class="card-header cursor-pointer">
+                                <!--begin::Card title-->
+                                <div class="card-title m-0">
+                                    <h3 class="fw-bold m-0">Institutional Data</h3>
+                                </div>
+                                <!--end::Card title-->
+                            </div>
+                            <!--begin::Card header-->
+                            <!--begin::Card body-->
+                            <div class="card-body p-9">
+                                <!--begin::Row-->
+                                <div class="row mb-7">
+                                    <label class="col-lg-4 fw-semibold text-muted required">Faculty numbers
+                                        <span class="ms-1" data-bs-toggle="tooltip"
+                                            title="Total number of faculty members and international faculty members"><i
+                                                class="ki-outline ki-information fs-7"></i></span>
+                                    </label>
+                                    <div class="col-lg-8">
+                                        <div class="row">
+                                            <div class="col-lg-6 fv-row">
+                                                <input type="number" name="fname"
+                                                    class="form-control form-control-lg form-control-solid mb-3 mb-lg-0"
+                                                    placeholder="Faculty numbers" value="10" required />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-7">
+                                    <label class="col-lg-4 fw-semibold text-muted required">Student numbers
+                                        <span class="ms-1" data-bs-toggle="tooltip"
+                                            title="Total number of students and international students"><i
+                                                class="ki-outline ki-information fs-7"></i></span>
+                                    </label>
+                                    <div class="col-lg-8 fv-row">
+                                        <div class="row">
+                                            <div class="col-lg-6 fv-row">
+                                                <input type="number" name="fname"
+                                                    class="form-control form-control-lg form-control-solid mb-3 mb-lg-0"
+                                                    placeholder="Student numbers" value="100" required />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-7">
+                                    <label class="col-lg-4 fw-semibold text-muted required">Graduate outcomes
+                                        <span class="ms-1" data-bs-toggle="tooltip"
+                                            title="Data about total graduates, graduates employed within 6 months, graduates pursuing further studies within 6 months, and graduate outcome unknown/unresponsive."><i
+                                                class="ki-outline ki-information fs-7"></i></span>
+                                    </label>
+                                    <div class="col-lg-8 d-flex align-items-center">
+                                        <div class="col-lg-6 fv-row">
+                                            <input type="number" name="fname"
+                                                class="form-control form-control-lg form-control-solid mb-3 mb-lg-0"
+                                                placeholder="Total graduates" required />
+                                            <input type="text" name="fname"
+                                                class="form-control form-control-lg form-control-solid mt-3 mb-lg-0"
+                                                placeholder="Graduates employed within 6 months" required />
+                                            <input type="text" name="fname"
+                                                class="form-control form-control-lg form-control-solid mt-3 mb-lg-0"
+                                                placeholder="Graduates pursuing further studies within 6 months" required />
+                                            <input type="text" name="fname"
+                                                class="form-control form-control-lg form-control-solid mt-3 mb-lg-0"
+                                                placeholder="Graduate outcome unknown/unresponsive" required />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-7">
+                                    <label class="col-lg-4 fw-semibold text-muted required">proof of a survey measuring
+                                        graduate
+                                        outcomes
+                                        and/or official reports submitted to the government</label>
+                                    <div class="col-lg-8 fv-row">
+                                        <div class="row">
+                                            <div class="col-lg-6 fv-row">
+                                                <input type="file" name="fname"
+                                                    class="form-control form-control-lg mb-3 mb-lg-0" required />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!--end::Card body-->
+                            <!--begin::Actions-->
+                            <div class="card-footer d-flex justify-content-end py-6 px-9">
+                                <button type="reset" class="btn btn-light btn-active-light-primary me-2">Discard</button>
+                                <button type="submit" class="btn btn-primary" id="kt_account_profile_details_submit">Save
+                                    Changes</button>
+                            </div>
+                            <!--end::Actions-->
+                        </div>
+                    </form>
                 </div>
                 <!--end::Content container-->
             </div>

@@ -128,7 +128,7 @@
                                                 <div class="col-lg-6 fv-row">
                                                     <input type="text" name="fname"
                                                         class="form-control form-control-lg form-control-solid mb-3 mb-lg-0"
-                                                        placeholder="University name" value="Sunway University" />
+                                                        placeholder="University name" value="Sunway University" required />
                                                 </div>
                                             </div>
                                             <!--end::Row-->
@@ -148,7 +148,7 @@
                                         <div class="col-lg-8">
                                             <div class="row">
                                                 <div class="col-lg-6 fv-row">
-                                                    <select name="country" aria-label="Select a Location"
+                                                    <select name="country" required aria-label="Select a Location"
                                                         data-control="select2" data-placeholder="Select a Location..."
                                                         class="form-select form-select-solid form-select-lg fw-semibold">
                                                         <option value="">Select a Country...</option>
@@ -609,7 +609,7 @@
                                                     <input type="url" name="fname"
                                                         class="form-control form-control-lg form-control-solid mb-3 mb-lg-0"
                                                         placeholder="University Website Link"
-                                                        value="https://sunwayuniversity.edu.my/" />
+                                                        value="https://sunwayuniversity.edu.my/" required />
                                                 </div>
                                             </div>
                                             <!--end::Row-->
@@ -650,7 +650,7 @@
                                                 <div class="col-lg-6 fv-row">
                                                     <input type="email" name="fname"
                                                         class="form-control form-control-lg form-control-solid mb-3 mb-lg-0"
-                                                        placeholder="Official web domain for faculty email" />
+                                                        placeholder="Official web domain for faculty email" required />
                                                 </div>
                                             </div>
                                             <!--end::Row-->
@@ -669,7 +669,7 @@
                                                 <div class="col-lg-6 fv-row">
                                                     <input type="text" name="fname"
                                                         class="form-control form-control-lg form-control-solid mb-3 mb-lg-0"
-                                                        placeholder="Institution name in other languages" />
+                                                        placeholder="Institution name in other languages" required />
                                                 </div>
                                             </div>
                                             <!--end::Row-->
@@ -688,7 +688,7 @@
                                                 <div class="col-lg-6 fv-row">
                                                     <input type="url" name="fname"
                                                         class="form-control form-control-lg form-control-solid mb-3 mb-lg-0"
-                                                        placeholder="Google Scholar profile" />
+                                                        placeholder="Google Scholar profile" required />
                                                 </div>
                                             </div>
                                             <!--end::Row-->
